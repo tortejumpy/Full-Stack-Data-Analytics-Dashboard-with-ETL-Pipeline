@@ -1,0 +1,111 @@
+order_id,customer_id,product,category,amount,order_date,status
+O001,C001,Laptop Pro,Electronics,1299.99,2023-06-01,completed
+O002,C002,Wireless Mouse,Electronics,29.99,01/07/2023,COMPLETED
+O003,C003,Office Chair,Furniture,349.99,2023-07-15,shipped
+O004,C004,Desk Lamp,Furniture,,2023-08-01,pending
+O005,C005,USB Hub,Electronics,49.99,15-Aug-2023,Cancelled
+O006,C001,Mechanical Keyboard,Electronics,149.99,2023-09-10,completed
+O007,C006,Standing Desk,Furniture,599.99,Sep 20 2023,COMPLETED
+O008,C007,Monitor 27in,Electronics,399.99,2023-10-05,completed
+O009,C008,Webcam HD,Electronics,89.99,05/11/2023,refunded
+O010,C009,Laptop Stand,Accessories,79.99,2023-11-20,completed
+O011,C010,Phone Charger,Accessories,,01-Dec-2023,pending
+O012,C011,Bluetooth Speaker,Electronics,129.99,Dec 15 2023,completed
+O013,C012,Ergonomic Mouse,Accessories,59.99,2023-12-28,SHIPPED
+O014,C013,Drawing Tablet,Electronics,299.99,2024-01-10,completed
+O015,C014,Cable Organizer,Accessories,19.99,10/01/2024,cancelled
+O016,C015,Gaming Headset,Electronics,199.99,2024-01-25,Completed
+O017,C016,Desk Organizer,Accessories,,Jan 30 2024,pending
+O018,C017,Smart Plug,Electronics,34.99,2024-02-08,completed
+O019,C018,Laptop Bag,Accessories,89.99,08-Feb-2024,Shipped
+O020,C019,Screen Cleaner,Accessories,14.99,2024-02-20,completed
+O021,C020,RGB Mousepad,Accessories,39.99,20/02/2024,refunded
+O022,C021,Portable SSD,Electronics,109.99,2024-03-05,completed
+O023,C022,Noise Cancelling Headphones,Electronics,249.99,Mar 12 2024,completed
+O024,C023,Keyboard Wrist Rest,Accessories,29.99,2024-03-22,PENDING
+O025,C024,4K Webcam,Electronics,149.99,22-Mar-2024,completed
+O026,C025,Monitor Arm,Accessories,89.99,2024-04-02,completed
+O027,C026,Streaming Mic,Electronics,179.99,02/04/2024,cancelled
+O028,C027,Laptop Cooling Pad,Accessories,,Apr 15 2024,pending
+O029,C028,Smart Keyboard,Electronics,249.99,2024-04-25,completed
+O030,C029,Docking Station,Electronics,199.99,not-a-date,completed
+O031,C030,Wireless Charger,Electronics,49.99,2024-05-08,completed
+O032,C031,LED Desk Lamp,Furniture,59.99,08/05/2024,Completed
+O033,C032,Swivel Chair,Furniture,449.99,2024-05-20,shipped
+O034,C033,Filing Cabinet,Furniture,199.99,May 25 2024,completed
+O035,C034,Bookshelf,Furniture,,2024-06-01,pending
+O036,C035,Photo Printer,Electronics,299.99,01-Jun-2024,completed
+O037,C036,Label Maker,Accessories,69.99,2024-06-15,Completed
+O038,C037,Whiteboard,Furniture,129.99,15/06/2024,completed
+O039,C038,Projector Screen,Furniture,249.99,2024-06-28,cancelled
+O040,C039,Video Conferencing Kit,Electronics,349.99,Jun 30 2024,completed
+O041,C040,Surge Protector,Accessories,39.99,2024-07-10,completed
+O042,C041,Ergonomic Footrest,Furniture,79.99,10-Jul-2024,pending
+O043,C042,Monitor Riser,Accessories,49.99,2024-07-22,completed
+O044,C043,Laptop Pro,Electronics,1299.99,22/07/2024,Completed
+O045,C044,Wireless Mouse,Electronics,29.99,2024-08-05,completed
+O046,C045,Office Chair,Furniture,349.99,Aug 10 2024,shipped
+O047,C046,Desk Lamp,Furniture,45.99,2024-08-18,completed
+O048,C047,USB Hub,Electronics,49.99,18-Aug-2024,cancelled
+O049,C048,Mechanical Keyboard,Electronics,149.99,2024-08-30,completed
+O050,C049,Standing Desk,Furniture,,30/08/2024,pending
+O051,C050,Monitor 27in,Electronics,399.99,2024-09-08,completed
+O052,C001,Webcam HD,Electronics,89.99,Sep 12 2024,completed
+O053,C002,Laptop Stand,Accessories,79.99,2024-09-20,refunded
+O054,C003,Phone Charger,Accessories,25.99,20-Sep-2024,completed
+O055,C004,Bluetooth Speaker,Electronics,129.99,2024-10-01,Completed
+O056,C005,Ergonomic Mouse,Accessories,59.99,01/10/2024,cancelled
+O057,C006,Drawing Tablet,Electronics,299.99,2024-10-14,completed
+O058,C007,Cable Organizer,Accessories,19.99,Oct 20 2024,Completed
+O059,C008,Gaming Headset,Electronics,199.99,2024-10-28,pending
+O060,C009,Desk Organizer,Accessories,34.99,28-Oct-2024,completed
+O061,,Smart Plug,Electronics,34.99,2024-11-05,completed
+O062,C011,Laptop Bag,Accessories,89.99,05/11/2024,Completed
+O063,C012,Screen Cleaner,Accessories,14.99,2024-11-18,completed
+O064,C013,RGB Mousepad,Accessories,39.99,Nov 22 2024,refunded
+O065,C014,Portable SSD,Electronics,109.99,2024-11-30,completed
+O066,C015,Noise Cancelling Headphones,Electronics,249.99,30-Nov-2024,Completed
+O067,C016,Keyboard Wrist Rest,Accessories,29.99,2024-12-10,pending
+O068,C017,4K Webcam,Electronics,149.99,10/12/2024,completed
+O069,C018,Monitor Arm,Accessories,89.99,2024-12-20,Completed
+O070,C019,Streaming Mic,Electronics,179.99,Dec 28 2024,completed
+O071,,Laptop Cooling Pad,Accessories,,bad_date_value,pending
+O072,C021,Smart Keyboard,Electronics,249.99,2025-01-05,completed
+O073,C022,Docking Station,Electronics,199.99,05-Jan-2025,Completed
+O074,C023,Wireless Charger,Electronics,49.99,2025-01-18,completed
+O075,C024,LED Desk Lamp,Furniture,59.99,18/01/2025,completed
+O076,C025,Swivel Chair,Furniture,449.99,2025-01-28,Shipped
+O077,C026,Filing Cabinet,Furniture,199.99,Jan 30 2025,completed
+O078,C027,Bookshelf,Furniture,,2025-02-10,pending
+O079,C028,Photo Printer,Electronics,299.99,10-Feb-2025,completed
+O080,C029,Label Maker,Accessories,69.99,2025-02-20,Completed
+O081,C030,Whiteboard,Furniture,129.99,20/02/2025,completed
+O082,C031,Projector Screen,Furniture,249.99,2025-03-03,cancelled
+O083,C032,Video Conferencing Kit,Electronics,349.99,Mar 10 2025,completed
+O084,C033,Surge Protector,Accessories,39.99,2025-03-18,Completed
+O085,C034,Ergonomic Footrest,Furniture,79.99,18-Mar-2025,pending
+O086,C035,Monitor Riser,Accessories,49.99,2025-03-28,completed
+O087,C036,Laptop Pro,Electronics,1299.99,28/03/2025,Completed
+O088,C037,Wireless Mouse,Electronics,29.99,2025-04-05,completed
+O089,C038,Office Chair,Furniture,349.99,Apr 12 2025,shipped
+O090,C039,Desk Lamp,Furniture,45.99,2025-04-20,completed
+O091,C040,USB Hub,Electronics,49.99,20-Apr-2025,cancelled
+O092,C041,Mechanical Keyboard,Electronics,149.99,2025-04-28,Completed
+O093,C042,Standing Desk,Furniture,599.99,28/04/2025,completed
+O094,C043,Monitor 27in,Electronics,399.99,2025-05-05,completed
+O095,C044,Webcam HD,Electronics,89.99,May 10 2025,Completed
+O096,C045,Laptop Stand,Accessories,79.99,2025-05-18,completed
+O097,C046,Phone Charger,Accessories,25.99,18-May-2025,pending
+O098,C047,Bluetooth Speaker,Electronics,129.99,2025-05-28,completed
+O099,C048,Ergonomic Mouse,Accessories,59.99,28/05/2025,Completed
+O100,C049,Drawing Tablet,Electronics,299.99,2025-06-05,completed
+O101,C050,Cable Organizer,Accessories,19.99,Jun 10 2025,completed
+O102,C001,Gaming Headset,Electronics,199.99,2025-06-15,Completed
+O103,C002,Desk Organizer,Accessories,34.99,15-Jun-2025,completed
+O104,C003,Smart Plug,Electronics,34.99,2025-06-22,pending
+O105,C004,Laptop Bag,Accessories,89.99,22/06/2025,completed
+O106,C005,Screen Cleaner,Accessories,14.99,2025-07-01,Completed
+O107,C006,RGB Mousepad,Accessories,39.99,Jul 05 2025,completed
+O108,C007,Portable SSD,Electronics,109.99,2025-07-12,completed
+O109,C008,Noise Cancelling Headphones,Electronics,249.99,12-Jul-2025,Completed
+O110,C009,4K Webcam,Electronics,149.99,2025-07-20,completed
