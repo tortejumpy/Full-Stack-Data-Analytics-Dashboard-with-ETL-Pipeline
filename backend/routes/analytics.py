@@ -35,7 +35,7 @@ logger = logging.getLogger("routes.analytics")
 router = APIRouter()
 
 
-# ─────────────────────────────── Health ──────────────────────────────────────
+# Health
 
 
 @router.get(
@@ -56,7 +56,7 @@ async def health_check() -> HealthResponse:
     )
 
 
-# ─────────────────────────────── Revenue ─────────────────────────────────────
+#  Revenue 
 
 
 @router.get(
@@ -101,7 +101,7 @@ async def get_revenue(
         return error_response("Failed to retrieve revenue data.", str(exc))
 
 
-# ──────────────────────────── Top Customers ──────────────────────────────────
+# Top Customers 
 
 
 @router.get(
@@ -154,8 +154,7 @@ async def get_top_customers(
         return error_response("Failed to retrieve customer data.", str(exc))
 
 
-# ────────────────────────────── Categories ───────────────────────────────────
-
+# Categories 
 
 @router.get(
     "/categories",
@@ -179,8 +178,7 @@ async def get_categories() -> JSONResponse:
         return error_response("Failed to retrieve category data.", str(exc))
 
 
-# ─────────────────────────────── Regions ─────────────────────────────────────
-
+# Regions 
 
 @router.get(
     "/regions",
@@ -203,7 +201,7 @@ async def get_regions() -> JSONResponse:
         return error_response("Failed to retrieve regional data.", str(exc))
 
 
-# ───────────────────────── Cache Management ──────────────────────────────────
+# ─Cache Management 
 
 
 @router.post(

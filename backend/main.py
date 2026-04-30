@@ -34,7 +34,7 @@ logging.basicConfig(
 logger = logging.getLogger("main")
 
 
-# ─────────────────────────────── Lifespan ────────────────────────────────────
+#Lifespan 
 
 
 @asynccontextmanager
@@ -55,9 +55,7 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     logger.info("═══ Shutdown: analytics service cleaned up.")
 
 
-# ─────────────────────────── App Factory ─────────────────────────────────────
-
-
+#App Factory 
 def create_app() -> FastAPI:
     """Create and configure the FastAPI application instance.
 
@@ -72,7 +70,7 @@ def create_app() -> FastAPI:
         lifespan=lifespan,
     )
 
-    # ── CORS ─────────────────────────────────────────────────────────────
+    #  CORS
     app.add_middleware(
         CORSMiddleware,
         allow_origins=settings.cors_origins,
@@ -81,10 +79,10 @@ def create_app() -> FastAPI:
         allow_headers=["*"],
     )
 
-    # ── Routers ──────────────────────────────────────────────────────────
+    #  Routers 
     app.include_router(analytics_router, prefix=settings.api_prefix)
 
-    # ── Global Exception Handlers ─────────────────────────────────────────
+    # Global Exception Handlers
     app.add_exception_handler(Exception, unhandled_exception_handler)
 
     @app.exception_handler(404)
@@ -98,7 +96,7 @@ def create_app() -> FastAPI:
             },
         )
 
-    # ── Root redirect to docs ─────────────────────────────────────────────
+    #  Root redirect to docs 
     @app.get("/", include_in_schema=False)
     async def root() -> JSONResponse:
         return JSONResponse(

@@ -28,9 +28,7 @@ from backend.config import settings
 logger = logging.getLogger("analytics_service")
 
 
-# ──────────────────────────────── Cache Store ─────────────────────────────────
-
-
+# Cache Store 
 class _DataCache:
     """Internal TTL cache for DataFrames.
 
@@ -69,9 +67,7 @@ class _DataCache:
         return bool(self._data)
 
 
-# ─────────────────────────── Analytics Service ───────────────────────────────
-
-
+# Analytics Service 
 class AnalyticsService:
     """Singleton service providing analytics data to route handlers.
 
@@ -144,8 +140,7 @@ class AnalyticsService:
         """
         return df.replace({np.nan: None}).to_dict(orient="records")
 
-    # ── Public API ────────────────────────────────────────────────────────
-
+    #  Public API 
     def get_revenue(
         self,
         start_date: str | None = None,

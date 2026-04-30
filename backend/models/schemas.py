@@ -12,7 +12,7 @@ from typing import Optional
 from pydantic import BaseModel, Field, ConfigDict
 
 
-# ─────────────────────────────── Base ────────────────────────────────────────
+# Base 
 
 
 class BaseResponse(BaseModel):
@@ -24,7 +24,7 @@ class BaseResponse(BaseModel):
     count: int = Field(description="Number of items in the payload.")
 
 
-# ─────────────────────────── Revenue ─────────────────────────────────────────
+#  Revenue 
 
 
 class RevenuePoint(BaseModel):
@@ -41,8 +41,7 @@ class RevenueResponse(BaseResponse):
     data: list[RevenuePoint]
 
 
-# ─────────────────────────── Customers ───────────────────────────────────────
-
+# Customers 
 
 class CustomerRow(BaseModel):
     """Top customer record with spend and churn status."""
@@ -62,7 +61,7 @@ class CustomerResponse(BaseResponse):
     data: list[CustomerRow]
 
 
-# ─────────────────────────── Categories ──────────────────────────────────────
+#  Categories 
 
 
 class CategoryRow(BaseModel):
@@ -80,7 +79,7 @@ class CategoryResponse(BaseResponse):
     data: list[CategoryRow]
 
 
-# ─────────────────────────── Regions ─────────────────────────────────────────
+#Regions 
 
 
 class RegionRow(BaseModel):
@@ -99,7 +98,7 @@ class RegionResponse(BaseResponse):
     data: list[RegionRow]
 
 
-# ─────────────────────────── Health ──────────────────────────────────────────
+# Health 
 
 
 class HealthResponse(BaseModel):
